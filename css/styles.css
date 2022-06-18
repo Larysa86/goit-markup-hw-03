@@ -1,0 +1,263 @@
+:root {
+        --primary-text-color: #757575;
+        --title-text-color: #212121;
+        --secondary-title-color: #ffffff;
+        --background-color: #ffffff;
+        --secondary-background-color: #f5f4fa;
+        --third-background-color: #2f303a;
+        --accent-color: #2196f3;
+        --footer-text-color: rgba(255, 255, 255, 0.6);
+        --accent-color-focus: #188ce8;
+    }
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+.header-nav-list,
+.contacts-list,
+.benefits-list,
+.job-list,
+.team-list,
+.portfolio-button-list,
+.projects-list,
+.footer-list {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Шапка сторінки */
+
+.header {
+    background-color: var(--background-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+   
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* Навігація на інші сторінки */
+
+.current.link {
+    color: var(--accent-color);
+}
+
+.header-nav a {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.header-nav a:hover,
+.header-nav a:focus {
+    color: var(--accent-color);
+}
+
+.contacts-list a {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.contacts-list a:hover,
+.contacts-list a:focus {
+    color: var(--accent-color);
+}
+
+/* Унікальний контент сторінки */
+
+/* Секція Герой */
+
+.hero {
+    background-color: var(--third-background-color);
+}
+
+.hero-title {
+    color: var(--secondary-title-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    font-family: inherit;
+    color: var(--secondary-title-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--accent-color-focus);
+  
+}
+
+
+/* Секція Переваги */
+
+.benefits-title {
+    color: var(--title-text-color);
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.benefits-text {
+    line-height: 1.71;
+}
+
+/* Секція Наша робота */
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Секція Наша команда */
+
+.section-team {
+    background-color: var(--secondary-background-color);
+}
+
+
+
+.team-member {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* Підвал */
+
+.footer {
+    background-color: var(--third-background-color);
+}
+
+.footer .logo {
+    color: var(--secondary-title-color);
+}
+
+/* Адреса */
+
+.address.map {
+    color: var(--secondary-title-color);
+    font-style: normal;
+    line-height: 1.71;
+}
+
+.address-contact {
+    color: var(--footer-text-color);
+
+    font-style: normal;
+    line-height: 1.71;
+}
+
+.address-contact:hover,
+.address-contact:focus {
+    color: var(--accent-color);
+}
+
+/* Секція Портфоліо */
+
+/* Кнопки */
+
+.button-list:hover,
+.button-list:focus {
+    color: var(--secondary-title-color);
+    background-color: var(--accent-color);
+}
+
+.button-list {
+    padding: 6px 22px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.button-list.active {
+    background-color: var(--accent-color);
+    color: var(--secondary-title-color);
+}
+
+.projects-title {
+    color: var(--title-text-color);
+    
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-text {
+    color: var(--primary-text-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+}
