@@ -31,6 +31,10 @@ body {
     /* outline: 2px solid rgb(203, 72, 203); */
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .link {
     text-decoration: none;
@@ -169,14 +173,13 @@ img {
 
 /* Секція Герой */
 
-.hero {
+.section.hero {
     padding: 200px 0;
     background-color: var(--third-background-color);
     text-align: center;
 }
 
 .hero-title {
-    margin-top: 0;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -221,10 +224,6 @@ img {
 
 /* Секція Переваги */
 
-.section-benefits {
-    padding-top: 94px;
-    padding-bottom: 0;
-}
 
 .benefits-list {
     display: flex;
@@ -240,7 +239,6 @@ img {
 }
 
 .benefits-title {
-    margin-top: 0;
     margin-bottom: 10px;
 
     color: var(--title-text-color);
@@ -250,21 +248,14 @@ img {
 }
 
 .benefits-text {
-    margin-top: 0;
-    margin-bottom: 0;
 
     line-height: 1.71;
 }
 
 /* Секція Наша робота */
 
-.section-job {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .section-title {
-    margin-top: 0;
     margin-bottom: 50px;
 
     color: var(--title-text-color);
@@ -288,7 +279,7 @@ img {
 
 /* Секція Наша команда */
 
-.section-team {
+.section.team {
     background-color: var(--secondary-background-color);
 }
 
@@ -319,7 +310,6 @@ img {
 }
 
 .team-member {
-    margin-top: 0;
     margin-bottom: 10px;
 
     color: var(--title-text-color);
@@ -329,9 +319,6 @@ img {
 }
 
 .team-position {
-    margin-top: 0;
-    margin-bottom: 0;
-
     font-size: 16px;
     line-height: 1.19;
 }
@@ -376,9 +363,7 @@ img {
 
 /* Секція Портфоліо */
 
-.portfolio {
-    padding: 94px 0;
-}
+
 
 /* Кнопки */
 
