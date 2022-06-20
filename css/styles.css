@@ -254,6 +254,9 @@ img {
 
 /* Секція Наша робота */
 
+.section.job{
+    padding-top: 0;
+}
 
 .section-title {
     margin-bottom: 50px;
